@@ -4,4 +4,4 @@ const BgChanger = () => {
   )
 }
 
-export default BgChanger
+export default BgChanger;   
