@@ -11,11 +11,11 @@ export default function RandomColor() {
     for (let i = 0; i < 6; i++) {
       hexColor += [randomColorUtility(hex.length)];
       console.log(hexColor);
-    }
+    } 
     setColor(hexColor);
   }
-  
-  function RandomRgbColor (){
+
+  function RandomRgbColor() {
     const r = randomColorUtility(256);
     const g = randomColorUtility(256);
     const b = randomColorUtility(256);
@@ -23,7 +23,6 @@ export default function RandomColor() {
     const RgbColor = `rgb(${r},${g},${b})`;
     setColor(RgbColor);
   }
-
 
   return (
     <>
@@ -40,7 +39,10 @@ export default function RandomColor() {
         >
           Create Rgb Color
         </button>
-        <button className=" border-2 rounded-sm  mr-10" onClick={color ? grnrateHexColor:RandomColor}>
+        <button
+          className=" border-2 rounded-sm  mr-10"
+          onClick={color ? grnrateHexColor : RandomColor}
+        >
           Create Random Color
         </button>
       </div>
