@@ -55,7 +55,7 @@ export default function Accordion() {
       {accordionData.map((accordiansIteams) => (
         <div
           key={accordiansIteams.id}
-          className="flex justify-center relative top-0"
+          className="flex justify-center relative top-10"
         >
           <ul className>
             <li
