@@ -1,22 +1,9 @@
-import './App.css'
-import Fruite from './Components/Filter Fruite/Fruite'
-// import Accordion from './Components/Accordion/accordion'
-// import RandomColor from './Components/RandomColor/RandomColor'
-// import ImageSlider from './Components/ImageSlider/ImageSlider'
-// import Todos from './Components/TodosApp/Todos';
-// import Tods from './Components/Todos/Tods';
+import "./App.css";
+import Todolist from "./Components/TodoApp/Todo";
 function App() {
-
-  return (
-    <>
-    {/* <Accordion />
-    <RandomColor />
-    <ImageSlider />
-    <Todos />
-    <Tods/> */}
-    <Fruite />
-    </>
-  )
+  return <>
+  <Todolist />
+  </>;
 }
 
-export default App
+export default App;
